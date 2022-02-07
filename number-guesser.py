@@ -1,5 +1,4 @@
 import random
-from random import randint
 import time
 
 def level_one():
@@ -31,7 +30,7 @@ def level_one():
       elif guess < number_thinking:
         check_repeat(guess, guesses, "Too low")
       elif guess == number_thinking:
-        print(f"YAY you got it! You won in {tries+2} tries.")
+        print(f"YAY you got it! You won in {tries+1} tries.")
         return
       else:
         print("WHAT? NO! Nooooo! o.o That's physically impossible! How could you even get to this else statement? K so like, I declare we are both in an alternate universe where math and logic themselves are inherently different. Getting to an alternate universe is a WAY bigger accomplishment than winning this game. So YOU WIN!\n\nHey, by the way, go outside and make sure that you're at least in a universe where we can survive, k? Is it infested by zombies? Did you end up in the 16th century instead of now? Or did we somehow get to a universe where Teletubbies is reality, and what we previously knew as the real world is fictional? Please let me know later. Thanks.")
